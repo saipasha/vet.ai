@@ -19,7 +19,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-datasets/
+
 
 # Virtual Environment
 .env
@@ -39,6 +39,10 @@ ENV/
 *.ckpt
 *.pb
 events.out.tfevents.*
+
+# Data
+datasets
+*.zip
 
 # Misc
 .DS_Store
